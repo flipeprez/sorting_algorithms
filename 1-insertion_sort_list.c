@@ -1,5 +1,5 @@
 #include "sort.h"
-/*
+/**
  * insertion_sort_list - insert a dobly linked list in ascending order.
  * @list:list
  */
