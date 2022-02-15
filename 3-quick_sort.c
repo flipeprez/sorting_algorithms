@@ -60,7 +60,7 @@ void qsprecursive(int array[], int low, int high, size_t size)
 	if (low < high)
 	{
 		int pivot = qsp(array, low, high, size);
-		
+
 		if (pivot > 0)
 			qsprecursive(array, low, pivot - 1, size);
 		if (pivot < high)
